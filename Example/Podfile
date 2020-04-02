@@ -3,9 +3,4 @@ use_frameworks!
 target 'KochavaCoreiOS_Example' do
   pod 'KochavaCoreiOS', :path => '../'
 
-  target 'KochavaCoreiOS_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

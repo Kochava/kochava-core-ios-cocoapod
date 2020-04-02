@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KochavaCoreiOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KochavaCoreiOS.'
+  s.summary          = 'The KochavaCore iOS module of the Kochava iOS SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description  = <<-DESC
+  The KochavaCore module provides core support for all modules within the Kochava SDK.
+  DESC
 
-  s.homepage         = 'https://github.com/johnbushnell/KochavaCoreiOS'
+  s.homepage         = 'http://www.kochava.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'johnbushnell' => 'jbushnell@kochava.com' }
-  s.source           = { :git => 'https://github.com/johnbushnell/KochavaCoreiOS.git', :tag => s.version.to_s }
+  s.license          = { :type => 'Commercial', :file => 'LICENSE' }
+  s.author       = { 'Kochava' => 'support@kochava.com' }
+  s.source           = { :git => 'https://github.com/Kochava/kochava-core-ios-cocoapod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,13 @@ TODO: Add long description of the pod here.
   #   'KochavaCoreiOS' => ['KochavaCoreiOS/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'KochavaCoreiOS/Classes/**/*.h'
+  s.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
+
+  s.platform     = :ios, '8.0'
+  s.vendored_libraries = 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a', 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a'
+  s.preserve_paths = 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a', 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a'
+  s.library = 'KochavaCoreiOS'
+  
+  s.swift_versions = '4.0'
 end

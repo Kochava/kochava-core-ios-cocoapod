@@ -1,0 +1,6 @@
+framework module Pods_KochavaCoreiOS_Example {
+  umbrella header "Pods-KochavaCoreiOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
