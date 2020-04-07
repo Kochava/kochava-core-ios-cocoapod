@@ -1,0 +1,1 @@
+../../../../../KochavaCoreiOS/Classes/KVAPartner.h

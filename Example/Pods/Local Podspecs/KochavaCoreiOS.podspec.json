@@ -1,7 +1,7 @@
 {
   "name": "KochavaCoreiOS",
-  "version": "0.1.0",
-  "summary": "The KochavaCore iOS module of the Kochava iOS SDK.",
+  "version": "3.16.0",
+  "summary": "The KochavaCore module of the Kochava iOS SDK.",
   "description": "The KochavaCore module provides core support for all modules within the Kochava SDK.",
   "homepage": "http://www.kochava.com",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/kochava-core-ios-cocoapod.git",
-    "tag": "0.1.0"
+    "tag": "3.16.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -35,6 +35,6 @@
     "KochavaCoreiOS/Libraries/libKochavaCoreiOS.a"
   ],
   "libraries": "KochavaCoreiOS",
-  "swift_versions": "4.0",
-  "swift_version": "4.0"
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

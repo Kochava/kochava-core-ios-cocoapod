@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KochavaCoreiOS'
-  s.version          = '0.1.0'
-  s.summary          = 'The KochavaCore iOS module of the Kochava iOS SDK.'
+  s.version          = '3.16.0'
+  s.summary          = 'The KochavaCore module of the Kochava iOS SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -44,5 +44,5 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a', 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a'
   s.library = 'KochavaCoreiOS'
   
-  s.swift_versions = '4.0'
+  s.swift_versions = '5.0'
 end
