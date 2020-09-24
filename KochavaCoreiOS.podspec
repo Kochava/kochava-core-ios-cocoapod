@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KochavaCoreiOS'
-  s.version          = '3.17.0'
+  s.version          = '4.0.0'
   s.summary          = 'The KochavaCore module of the Kochava iOS SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description  = <<-DESC
-  The KochavaCore module provides core support for all modules within the Kochava SDK.
+  The KochavaCore module provides core support for all modules within the Kochava SDK for the Apple iOS platform.
   DESC
 
   s.homepage         = 'http://www.kochava.com'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Kochava/kochava-core-ios-cocoapod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.3'
 
   s.source_files = 'KochavaCoreiOS/Classes/**/*'
   
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'KochavaCoreiOS/Classes/**/*.h'
   s.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '10.3'
   s.vendored_libraries = 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a', 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a'
   s.preserve_paths = 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a', 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a'
   s.library = 'KochavaCoreiOS'
