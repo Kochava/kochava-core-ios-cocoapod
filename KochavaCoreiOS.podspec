@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.3'
   s.vendored_libraries = 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a', 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a'
   s.preserve_paths = 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a', 'KochavaCoreiOS/Libraries/libKochavaCoreiOS.a'
-  s.library = 'KochavaCoreiOS'
+  # s.library = 'KochavaCoreiOS'
   
   s.swift_versions = '5.0'
 end
