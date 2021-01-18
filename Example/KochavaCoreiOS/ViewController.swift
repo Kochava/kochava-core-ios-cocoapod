@@ -3,7 +3,7 @@
 //  KochavaCoreiOS
 //
 //  Created by John Bushnell on 04/02/2020.
-//  Copyright (c) 2020 Kochava. All rights reserved.
+//  Copyright (c) 2020 - 2021 Kochava. All rights reserved.
 //
 
 import UIKit
