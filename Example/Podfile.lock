@@ -1,5 +1,5 @@
 PODS:
-  - KochavaCoreiOS (4.8.0)
+  - KochavaCoreiOS (5.0.0)
 
 DEPENDENCIES:
   - KochavaCoreiOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochavaCoreiOS: a28876c81589b89947477dd61e748abbec95b7b4
+  KochavaCoreiOS: db64b3bc8f37f7312890e0916ed9d62ba13dd1a1
 
 PODFILE CHECKSUM: f5417956eb4d873ce9c7e63ea404070c883eac90
 
